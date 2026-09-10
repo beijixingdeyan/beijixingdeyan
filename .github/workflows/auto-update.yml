@@ -1,0 +1,49 @@
+name: Auto Update Profile
+
+on:
+  schedule:
+    # 每天 02:00 UTC = 10:00 北京时间自动同步
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  auto-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run auto-sync script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python .github/scripts/update_profile.py
+          echo "=== diff ==="
+          git diff --unified=0 README.md | head -n 200 || true
+          echo "=== end diff ==="
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet README.md index.html 2>/dev/null; then
+            echo "No changes, skip commit"
+            exit 0
+          fi
+          git add README.md index.html
+          git commit -m "chore: auto-sync profile (repos count & latest 8) [skip ci]"
+          git push
+
+      - name: Trigger Pages deploy (if index.html changed)
+        if: success()
+        run: echo "Pages will auto-deploy via pages.yml on next push"

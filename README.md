@@ -1,8 +1,8 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a8a,100:06b6d4&height=220&section=header&text=Hi%20there%20👋%20I'm%20Pengqi&fontSize=42&fontColor=ffffff&animation=fadeIn&desc=Computer%20Science%20%40%20HNUST%20·%20Hunan%20University%20of%20Science%20and%20Technology&descAlignY=75&descSize=16" />
 
-<p align="center">
-  <a href="https://github.com/beijixingdeyan"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Computer+Science+%26+Technology+%40+HNUST;AI+%E2%80%A2+Systems+%E2%80%A2+Security+%E2%80%A2+Full+Stack;Building+from+First+Principles%2C+Not+Wrapping+APIs;38+Repositories+%26+Counting+🚀" alt="Typing SVG" /></a>
-</p>
+<!-- AUTO_TYPING_START --><p align="center">
+  <a href="https://github.com/beijixingdeyan"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Computer+Science+%26+Technology+%40+HNUST;AI+%E2%80%A2+Systems+%E2%80%A2+Security+%E2%80%A2+Full+Stack;Building+from+First+Principles%2C+Not+Wrapping+APIs;37+Repositories+%26+Counting+🚀" alt="Typing SVG" /></a>
+</p><!-- AUTO_TYPING_END -->
 
 <p align="center">
   <a href="mailto:2037545140@qq.com"><img src="https://img.shields.io/badge/Email-2037545140%40qq.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
@@ -27,7 +27,7 @@
 > **「从第一性原理重新实现」—— 不做薄薄的封装，而是把 Autograd、流引擎、微内核、行为检测 亲手写出来。**
 
 - 🎓 **湖南科技大学 / Hunan University of Science and Technology** — 计算机科学与技术
-- 📍 湘潭 · 湖南 | **38** 个公开仓库 | 覆盖 **Python / TypeScript / Go / Rust / C++ / Java** 全栈
+<!-- AUTO_COUNT_START -->- 📍 湘潭 · 湖南 | **37** 个公开仓库 | 覆盖 **Python / TypeScript / Go / Rust / C++ / Java** 全栈<!-- AUTO_COUNT_END -->
 - 🧠 热爱领域：**AI Native 应用 / 分布式系统 / 零信任安全 / 操作系统 / 计算物理**
 - 🛠️ 信条：**Zero Dependency · From Scratch · Production Ready** — `go.mod` 可以零依赖，AI 框架可以纯 NumPy，流引擎可以不用 Kafka
 - 🌱 最近在做：`河道主动巡护系统 (YOLOv8 + FastAPI)` · `AegisFlow 零信任平台` · `PromptForge 提示词工程`
@@ -39,7 +39,7 @@
 - 🎓 CS & Technology @ HNUST, Xiangtan Hunan
 - 🔥 Obsessed with building from first principles: autograd engines, stream engines, microkernels, behavioral detection — all from scratch.
 - 🧩 Philosophy: Zero-dependency, explainable, deployable anywhere (Docker / Helm / systemd / bare metal).
-- 🚀 38 public repos spanning AI, Systems, Security, FinTech, Games and Full-stack.
+<!-- AUTO_COUNT_EN_START -->- 🚀 37 public repos spanning AI, Systems, Security, FinTech, Games and Full-stack.<!-- AUTO_COUNT_EN_END -->
 
 </details>
 
@@ -190,7 +190,7 @@ AI 混合检测引擎：**行为基线 + 异常评分 + LLM因果推理**，智�
 | [**SpectraPhysicsEngine**](https://github.com/beijixingdeyan/SpectraPhysicsEngine) / [**AetherLife**](https://github.com/beijixingdeyan/AetherLife) / [**aethergrid**](https://github.com/beijixingdeyan/aethergrid) | 自研物理引擎 / 生命模拟 / 网格系统 | `C++` |
 
 <details>
-<summary>📦 查看完整 38 个仓库分类矩阵</summary>
+<summary>📦 查看完整 37 个仓库分类矩阵</summary>
 
 | 类别 | 仓库 |
 |---|---|
@@ -240,6 +240,23 @@ AI 混合检测引擎：**行为基线 + 异常评分 + LLM因果推理**，智�
 - 🎯 **下一步**：为 `FluxLine` 补齐 Benchmark 与多节点一致性测试；为 `Kairos` 增加文件系统服务
 - 📝 **写作计划**：`Zero-Dependency Engineering` 系列 — 为什么每个项目都要从标准库开始？
 - 💡 **可合作**：AI 安全 / 流式系统 / P2P 组网 / 金融科技 — 欢迎 Issue / PR / 私信
+
+<!-- AUTO_REPOS_START -->
+> 🤖 **自动同步**（每天 10:00 + 每次 push 后更新）— 最新 8 个仓库按 `updated_at` 排序，排除 `deepseek-harness`
+
+| # | 仓库 | 语言 | ⭐ | 更新 | 简介 |
+|---|---|---|---|---|---|
+| 1 | [**river-patrol**](https://github.com/beijixingdeyan/river-patrol) | - | 0 | 2026-09-10 | 河道主动巡护系统 |
+| 2 | [**promptforge**](https://github.com/beijixingdeyan/promptforge) | TypeScript | 0 | 2026-09-10 | — |
+| 3 | [**claude-code-source-code**](https://github.com/beijixingdeyan/claude-code-source-code) | - | 1 | 2026-09-10 | Claude Code v2.1.88 Source Code |
+| 4 | [**homework**](https://github.com/beijixingdeyan/homework) | Java | 2 | 2026-09-10 | — |
+| 5 | [**voidforge**](https://github.com/beijixingdeyan/voidforge) | TypeScript | 1 | 2026-09-10 | — |
+| 6 | [**re-sonance**](https://github.com/beijixingdeyan/re-sonance) | HTML | 2 | 2026-09-10 | — |
+| 7 | [**aethergrid**](https://github.com/beijixingdeyan/aethergrid) | C++ | 2 | 2026-09-10 | — |
+| 8 | [**AetherLife**](https://github.com/beijixingdeyan/AetherLife) | C++ | 2 | 2026-09-10 | — |
+
+<sub>最后同步：2026-09-10 23:55 CST · 总数 **37** · 由 `auto-update.yml` 自动生成</sub>
+<!-- AUTO_REPOS_END -->
 
 ---
 
