@@ -210,8 +210,8 @@ AI 混合检测引擎：**行为基线 + 异常评分 + LLM因果推理**，智�
 ### 📊 GitHub 数据看板 / Stats
 
 <p align="center">
-  <!-- 主统计：改用国内可访问的 justsong 镜像（原 vercel 在部分网络超时） -->
-  <img height="170" src="https://stats.justsong.cn/api?username=beijixingdeyan&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=86400" />
+  <!-- 主统计：justsong 国内镜像（原 vercel 在部分网络超时），注意路径为 /api/github -->
+  <img height="170" src="https://stats.justsong.cn/api/github?username=beijixingdeyan&theme=tokyonight&show_icons=true&hide_border=true" />
   <img height="170" src="https://streak-stats.demolab.com?user=beijixingdeyan&theme=tokyonight&hide_border=true" />
 </p>
 
@@ -253,7 +253,7 @@ AI 混合检测引擎：**行为基线 + 异常评分 + LLM因果推理**，智�
 | 7 | [**aethergrid**](https://github.com/beijixingdeyan/aethergrid) | C++ | 2 | 2026-09-10 | — |
 | 8 | [**AetherLife**](https://github.com/beijixingdeyan/AetherLife) | C++ | 2 | 2026-09-10 | — |
 
-<sub>最后同步：2026-09-10 15:55 CST · 总数 **37** · 由 `auto-update.yml` 自动生成</sub>
+<sub>最后同步：2026-09-10 23:55 CST · 总数 **37** · 由 `auto-update.yml` 自动生成</sub>
 <!-- AUTO_REPOS_END -->
 
 ---
