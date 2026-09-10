@@ -76,12 +76,11 @@ def main():
         return f"<!-- AUTO_COUNT_EN_START -->{new_inner}<!-- AUTO_COUNT_EN_END -->"
     content = re.sub(r"<!-- AUTO_COUNT_EN_START -->(.*?)<!-- AUTO_COUNT_EN_END -->", repl_count_en, content, flags=re.DOTALL)
 
-    # 3. 更新 Typing SVG
+    # 3. 更新 Typing SVG（兼容 %2B 编码与 +）
     def repl_typing(m):
         inner = m.group(1)
-        # 把 38+Repositories 换成 N+Repositories
-        new_inner = re.sub(r"\d+\+Repositories", f"{total}+Repositories", inner)
-        # 同时把 38 改成 N 如果有遗漏
+        # 把 37%2BRepositories 或 37+Repositories 换成 N%2BRepositories（保持 URL 编码正确，修复 400）
+        new_inner = re.sub(r"\d+(?:\+|%2B)Repositories", f"{total}%2BRepositories", inner)
         return f"<!-- AUTO_TYPING_START -->{new_inner}<!-- AUTO_TYPING_END -->"
     content = re.sub(r"<!-- AUTO_TYPING_START -->(.*?)<!-- AUTO_TYPING_END -->", repl_typing, content, flags=re.DOTALL)
 

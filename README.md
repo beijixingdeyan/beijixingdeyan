@@ -1,7 +1,7 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a8a,100:06b6d4&height=220&section=header&text=Hi%20there%20👋%20I'm%20Pengqi&fontSize=42&fontColor=ffffff&animation=fadeIn&desc=Computer%20Science%20%40%20HNUST%20·%20Hunan%20University%20of%20Science%20and%20Technology&descAlignY=75&descSize=16" />
+<img width="100%" src="https://wsrv.nl/?url=https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a8a,100:06b6d4&height=220&section=header&text=Hi%20there%20%F0%9F%91%8B%20I'm%20Pengqi&fontSize=42&fontColor=ffffff&animation=fadeIn&desc=Computer%20Science%20%40%20HNUST%20%C2%B7%20Hunan%20University%20of%20Science%20and%20Technology&descAlignY=75&descSize=16" />
 
 <!-- AUTO_TYPING_START --><p align="center">
-  <a href="https://github.com/beijixingdeyan"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Computer+Science+%26+Technology+%40+HNUST;AI+%E2%80%A2+Systems+%E2%80%A2+Security+%E2%80%A2+Full+Stack;Building+from+First+Principles%2C+Not+Wrapping+APIs;37+Repositories+%26+Counting+🚀" alt="Typing SVG" /></a>
+  <a href="https://github.com/beijixingdeyan"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Computer%20Science%20%26%20Technology%20%40%20HNUST;AI%20%E2%80%A2%20Systems%20%E2%80%A2%20Security%20%E2%80%A2%20Full%20Stack;Building%20from%20First%20Principles%2C%20Not%20Wrapping%20APIs;37%2BRepositories%20%26%20Counting%20%F0%9F%9A%80" alt="Typing SVG" /></a>
 </p><!-- AUTO_TYPING_END -->
 
 <p align="center">
@@ -210,17 +210,15 @@ AI 混合检测引擎：**行为基线 + 异常评分 + LLM因果推理**，智�
 ### 📊 GitHub 数据看板 / Stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=beijixingdeyan&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=beijixingdeyan&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
-</p>
-
-<p align="center">
+  <!-- 主统计：改用国内可访问的 justsong 镜像（原 vercel 在部分网络超时） -->
+  <img height="170" src="https://stats.justsong.cn/api?username=beijixingdeyan&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=86400" />
   <img height="170" src="https://streak-stats.demolab.com?user=beijixingdeyan&theme=tokyonight&hide_border=true" />
-  <img height="170" src="https://github-readme-activity-graph.vercel.app/graph?username=beijixingdeyan&theme=tokyo-night&hide_border=true&area=true" />
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=beijixingdeyan&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=7" />
+  <!-- 活跃度：ghchart 为非 Vercel 方案，国内直连可达 -->
+  <img height="170" src="https://ghchart.rshah.org/beijixingdeyan" alt="Contribution Chart" />
+  <img height="170" src="https://skillicons.dev/icons?i=python,typescript,go,rust,cpp,java,js,react,vue&perline=8" alt="skills" />
 </p>
 
 <!-- 贡献蛇 / Contribution Snake — 需开启 GitHub Actions 生成 -->
@@ -283,7 +281,7 @@ AI 混合检测引擎：**行为基线 + 异常评分 + LLM因果推理**，智�
 
 > 如果这个主页对你有启发，欢迎 ⭐ Star 本仓库，也欢迎 Fork 去改成你的版本！
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,50:1e3a8a,100:0f172a&height=120&section=footer&text=&fontSize=0" />
+<img width="100%" src="https://wsrv.nl/?url=https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,50:1e3a8a,100:0f172a&height=120&section=footer&text=&fontSize=0" />
 
 <!-- 
   部署说明（给自己看）：
