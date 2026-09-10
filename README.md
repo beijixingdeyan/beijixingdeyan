@@ -188,7 +188,6 @@ AI 混合检测引擎：**行为基线 + 异常评分 + LLM因果推理**，智�
 | [**FLOWBOUND 时流**](https://github.com/beijixingdeyan/FLOWBOUND) | 数据驱动流场战术游戏：矢量场铭文重塑战场，60FPS + 对象池 + 空间哈希 + MOD支持 | `JavaScript` `Canvas` |
 | [**WebRTC-P2P**](https://github.com/beijixingdeyan/WebRTC-P2P) | Kotlin + Go 的 WebRTC 点对点通信 | `Kotlin` `Go` |
 | [**SpectraPhysicsEngine**](https://github.com/beijixingdeyan/SpectraPhysicsEngine) / [**AetherLife**](https://github.com/beijixingdeyan/AetherLife) / [**aethergrid**](https://github.com/beijixingdeyan/aethergrid) | 自研物理引擎 / 生命模拟 / 网格系统 | `C++` |
-| [**deepseek-harness**](https://github.com/beijixingdeyan/deepseek-harness) | DeepSeek Harness — Everything is a Plugin (Cordis) | `TypeScript` |
 
 <details>
 <summary>📦 查看完整 38 个仓库分类矩阵</summary>
@@ -196,7 +195,7 @@ AI 混合检测引擎：**行为基线 + 异常评分 + LLM因果推理**，智�
 | 类别 | 仓库 |
 |---|---|
 | **AI / LLM / Agent** | `AegisFlow` · `NeuroForge` · `PromptForge` · `mnemodex` · `codesage` · `AEON` · `AniForge` · `Argubid` · `FinAI-Copilot` |
-| **Systems / Infra** | `FluxLine` · `Kairos` · `deepseek-harness` · `WarpLAN` · `WebRTC-P2P` |
+| **Systems / Infra** | `FluxLine` · `Kairos` · `WarpLAN` · `WebRTC-P2P` |
 | **Security / FinTech** | `AegisFlow` · `LedgerLine` · `CUSTOS` · `FinAI-Copilot` |
 | **Vision / FullStack** | `river-patrol` · `homework` · `Aurora-Studio` · `AetherDeck` · `NOOS` · `voidforge` · `re-sonance` · `skillmarket` |
 | **Game / Physics / Simulation** | `FLOWBOUND` · `GRAVIHERD` · `RIFTWEAVE` · `SpectraPhysicsEngine` · `AetherLife` · `aethergrid` · `chronomesh` · `Starfall-Chronicles` |
