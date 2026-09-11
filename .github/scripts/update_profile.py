@@ -102,7 +102,7 @@ def main():
     if rows:
         now = datetime.now(timezone.utc).astimezone().strftime("%Y-%m-%d %H:%M")
         table = (
-            "\n> 🤖 **自动同步**（每天 10:00 + 每次 push 后更新）— 最新 8 个仓库按 `updated_at` 排序，排除 `deepseek-harness`\n\n"
+            "\n> 🤖 **自动同步**（每天 02:00 + 每次 push 后更新）— 最新 8 个仓库按 `updated_at` 排序\n\n"
             "| # | 仓库 | 语言 | ⭐ | 更新 | 简介 |\n"
             "|---|---|---|---|---|---|\n"
             + "\n".join(rows)

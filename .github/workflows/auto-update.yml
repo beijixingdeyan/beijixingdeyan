@@ -2,8 +2,8 @@ name: Auto Update Profile
 
 on:
   schedule:
-    # 每天 02:00 UTC = 10:00 北京时间自动同步
-    - cron: "0 2 * * *"
+    # 每天 02:00 北京时间（18:00 UTC）自动同步
+    - cron: "0 18 * * *"
   workflow_dispatch:
   push:
     branches: [main]
