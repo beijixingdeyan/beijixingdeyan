@@ -244,16 +244,16 @@ AI 混合检测引擎：**行为基线 + 异常评分 + LLM因果推理**，智�
 
 | # | 仓库 | 语言 | ⭐ | 更新 | 简介 |
 |---|---|---|---|---|---|
-| 1 | [**CareerCrawler**](https://github.com/beijixingdeyan/CareerCrawler) | Python | 0 | 2026-09-12 | — |
-| 2 | [**CrossBridge**](https://github.com/beijixingdeyan/CrossBridge) | TypeScript | 0 | 2026-09-11 | — |
-| 3 | [**NodeSlim**](https://github.com/beijixingdeyan/NodeSlim) | JavaScript | 0 | 2026-09-11 | — |
+| 1 | [**CareerCrawler**](https://github.com/beijixingdeyan/CareerCrawler) | Python | 0 | 2026-09-12 | Slogan：爬取机会，洞察未来 |
+| 2 | [**CrossBridge**](https://github.com/beijixingdeyan/CrossBridge) | TypeScript | 0 | 2026-09-11 | "打破系统边界，一个设备，三个生态" |
+| 3 | [**NodeSlim**](https://github.com/beijixingdeyan/NodeSlim) | JavaScript | 0 | 2026-09-11 | 从 850MB 到 50MB，一键诊断，智能优化 |
 | 4 | [**river-patrol**](https://github.com/beijixingdeyan/river-patrol) | - | 0 | 2026-09-10 | 河道主动巡护系统 |
-| 5 | [**promptforge**](https://github.com/beijixingdeyan/promptforge) | TypeScript | 0 | 2026-09-10 | — |
+| 5 | [**promptforge**](https://github.com/beijixingdeyan/promptforge) | TypeScript | 0 | 2026-09-10 | 一句话需求，一整套提示词 |
 | 6 | [**claude-code-source-code**](https://github.com/beijixingdeyan/claude-code-source-code) | - | 1 | 2026-09-10 | Claude Code v2.1.88 Source Code |
-| 7 | [**homework**](https://github.com/beijixingdeyan/homework) | Java | 2 | 2026-09-10 | — |
-| 8 | [**voidforge**](https://github.com/beijixingdeyan/voidforge) | TypeScript | 1 | 2026-09-10 | — |
+| 7 | [**homework**](https://github.com/beijixingdeyan/homework) | Java | 2 | 2026-09-10 | Java 项目 · 更新于 2026-09-10 |
+| 8 | [**voidforge**](https://github.com/beijixingdeyan/voidforge) | TypeScript | 1 | 2026-09-10 | 一款面向 miHoYo 技术栈的程序化开放世界生成引擎 |
 
-<sub>最后同步：2026-09-12 13:07 CST · 总数 **40** · 由 `auto-update.yml` 自动生成</sub>
+<sub>最后同步：2026-09-12 13:10 CST · 总数 **40** · 由 `auto-update.yml` 自动生成</sub>
 <!-- AUTO_REPOS_END -->
 
 ---

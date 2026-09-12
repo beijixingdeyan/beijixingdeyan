@@ -84,8 +84,49 @@ def main():
         return f"<!-- AUTO_TYPING_START -->{new_inner}<!-- AUTO_TYPING_END -->"
     content = re.sub(r"<!-- AUTO_TYPING_START -->(.*?)<!-- AUTO_TYPING_END -->", repl_typing, content, flags=re.DOTALL)
 
+    # 辅助：当 GitHub description 为空时，抓取 README 首段作为简介
+    def fetch_readme_brief(repo_name: str) -> str:
+        api = f"https://api.github.com/repos/{USERNAME}/{repo_name}/readme"
+        headers = {
+            "User-Agent": "auto-update-profile",
+            "Accept": "application/vnd.github+json",
+        }
+        if TOKEN:
+            headers["Authorization"] = f"Bearer {TOKEN}"
+        try:
+            req = Request(api, headers=headers)
+            with urlopen(req, timeout=12) as resp:
+                data = json.loads(resp.read().decode())
+                b64 = data.get("content", "")
+                if not b64:
+                    return ""
+                import base64
+                raw = base64.b64decode(b64).decode("utf-8", errors="ignore")
+                for line in raw.splitlines():
+                    s = line.strip()
+                    if not s:
+                        continue
+                    if s.startswith("#") and len(s) < 80:
+                        continue
+                    if s.startswith("![") or s.startswith("[![") or s.startswith("<"):
+                        continue
+                    if s.startswith("```"):
+                        continue
+                    clean = re.sub(r"\[([^\]]+)\]\([^\)]+\)", r"\1", s)
+                    clean = re.sub(r"[*_`>]", "", clean).strip()
+                    clean = clean.replace("|", "/")
+                    if len(clean) < 6:
+                        continue
+                    if len(clean) > 60:
+                        clean = clean[:57] + "..."
+                    return clean
+        except Exception:
+            return ""
+        return ""
+
     # 4. 生成 AUTO_REPOS 表格
     # 格式：| 排名 | 仓库 | 语言 | ⭐ | 更新时间 | 一句话 |
+    # 逻辑：优先 GitHub description，空则取 README 首段
     rows = []
     for i, r in enumerate(latest, 1):
         name = r["name"]
@@ -93,10 +134,12 @@ def main():
         stars = r["stargazers_count"]
         updated = r["updated_at"][:10]
         desc = (r["description"] or "").replace("|", "/").replace("\n", " ").strip()
+        if not desc:
+            desc = fetch_readme_brief(name)
         if len(desc) > 60:
             desc = desc[:57] + "..."
         if not desc:
-            desc = "—"
+            desc = f"{lang} 项目 · 更新于 {updated}"
         rows.append(f"| {i} | [**{name}**](https://github.com/{USERNAME}/{name}) | {lang} | {stars} | {updated} | {desc} |")
     table = ""
     if rows:
