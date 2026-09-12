@@ -244,7 +244,7 @@ AI 混合检测引擎：**行为基线 + 异常评分 + LLM因果推理**，智�
 
 | # | 仓库 | 语言 | ⭐ | 更新 | 简介 |
 |---|---|---|---|---|---|
-| 1 | [**CareerCrawler**](https://github.com/beijixingdeyan/CareerCrawler) | Python | 0 | 2026-09-11 | — |
+| 1 | [**CareerCrawler**](https://github.com/beijixingdeyan/CareerCrawler) | Python | 0 | 2026-09-12 | — |
 | 2 | [**CrossBridge**](https://github.com/beijixingdeyan/CrossBridge) | TypeScript | 0 | 2026-09-11 | — |
 | 3 | [**NodeSlim**](https://github.com/beijixingdeyan/NodeSlim) | JavaScript | 0 | 2026-09-11 | — |
 | 4 | [**river-patrol**](https://github.com/beijixingdeyan/river-patrol) | - | 0 | 2026-09-10 | 河道主动巡护系统 |
@@ -253,7 +253,7 @@ AI 混合检测引擎：**行为基线 + 异常评分 + LLM因果推理**，智�
 | 7 | [**homework**](https://github.com/beijixingdeyan/homework) | Java | 2 | 2026-09-10 | — |
 | 8 | [**voidforge**](https://github.com/beijixingdeyan/voidforge) | TypeScript | 1 | 2026-09-10 | — |
 
-<sub>最后同步：2026-09-11 15:24 CST · 总数 **40** · 由 `auto-update.yml` 自动生成</sub>
+<sub>最后同步：2026-09-12 13:07 CST · 总数 **40** · 由 `auto-update.yml` 自动生成</sub>
 <!-- AUTO_REPOS_END -->
 
 ---

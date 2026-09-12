@@ -129,13 +129,19 @@ def main():
     else:
         print("README.md no change")
 
-    # 6. 同步 index.html（可选）
+    # 6. 同步 index.html（可选）— 覆盖所有计数位置
     if os.path.exists(INDEX_HTML):
         html = open(INDEX_HTML, encoding="utf-8").read()
         orig_html = html
         html = re.sub(r"\d+ 个精选公开仓库", f"{total} 个精选公开仓库", html)
+        # 徽章：37%20Repos 或 37 Repos
+        html = re.sub(r"\d+%20Repos", f"{total}%20Repos", html)
         html = re.sub(r"\d+ Repos", f"{total} Repos", html)
-        # 更新总数展示：37+ repositories 文字
+        # meta 描述：37+ repositories / 37 repositories
+        html = re.sub(r"\d+\+\s*repositories", f"{total}+ repositories", html, flags=re.IGNORECASE)
+        html = re.sub(r"\d+\s+repositories", f"{total} repositories", html, flags=re.IGNORECASE)
+        # 标题中的 37+ 
+        html = re.sub(r"(\d+)\+\s*repositories", f"{total}+ repositories", html, flags=re.IGNORECASE)
         if html != orig_html:
             open(INDEX_HTML, "w", encoding="utf-8").write(html)
             print("index.html updated")
