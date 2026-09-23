@@ -244,16 +244,16 @@ AI 混合检测引擎：**行为基线 + 异常评分 + LLM因果推理**，智�
 
 | # | 仓库 | 语言 | ⭐ | 更新 | 简介 |
 |---|---|---|---|---|---|
-| 1 | [**AEON**](https://github.com/beijixingdeyan/AEON) | Python | 2 | 2026-09-18 | Transformer 之后，AI 的下一块底座。 |
-| 2 | [**CareerCrawler**](https://github.com/beijixingdeyan/CareerCrawler) | Python | 0 | 2026-09-12 | Slogan：爬取机会，洞察未来 |
-| 3 | [**CrossBridge**](https://github.com/beijixingdeyan/CrossBridge) | TypeScript | 0 | 2026-09-11 | "打破系统边界，一个设备，三个生态" |
-| 4 | [**NodeSlim**](https://github.com/beijixingdeyan/NodeSlim) | JavaScript | 0 | 2026-09-11 | 从 850MB 到 50MB，一键诊断，智能优化 |
-| 5 | [**river-patrol**](https://github.com/beijixingdeyan/river-patrol) | - | 0 | 2026-09-10 | 河道主动巡护系统 |
-| 6 | [**promptforge**](https://github.com/beijixingdeyan/promptforge) | TypeScript | 0 | 2026-09-10 | 一句话需求，一整套提示词 |
-| 7 | [**claude-code-source-code**](https://github.com/beijixingdeyan/claude-code-source-code) | - | 1 | 2026-09-10 | Claude Code v2.1.88 Source Code |
-| 8 | [**homework**](https://github.com/beijixingdeyan/homework) | Java | 2 | 2026-09-10 | Java 项目 · 更新于 2026-09-10 |
+| 1 | [**voidforge**](https://github.com/beijixingdeyan/voidforge) | TypeScript | 2 | 2026-09-23 | 一款面向 miHoYo 技术栈的程序化开放世界生成引擎 |
+| 2 | [**re-sonance**](https://github.com/beijixingdeyan/re-sonance) | HTML | 3 | 2026-09-23 | 让过去的你，成为此刻的同伴。 |
+| 3 | [**aethergrid**](https://github.com/beijixingdeyan/aethergrid) | C++ | 3 | 2026-09-23 | 一个不依赖第三方库的 C++20 混沌工程沙盒。它把分布式系统中最棘手的故障模式变成可交互、可观察、可复现的“故障... |
+| 4 | [**AetherLife**](https://github.com/beijixingdeyan/AetherLife) | C++ | 3 | 2026-09-23 | C++20 无锁 Actor 运行时 + SIMD 活体世界模拟引擎：每个生物的大脑是一段 96 字节基因组，由有... |
+| 5 | [**SpectraPhysicsEngine**](https://github.com/beijixingdeyan/SpectraPhysicsEngine) | C++ | 3 | 2026-09-23 | 实时音频驱动的粒子物理可视化引擎 |
+| 6 | [**chronomesh**](https://github.com/beijixingdeyan/chronomesh) | C++ | 3 | 2026-09-23 | ChronoMesh 是一个零第三方依赖的 C++20 项目：它把一个确定性探索游戏和一个可观测的高可用事件网格放... |
+| 7 | [**NeuroForge**](https://github.com/beijixingdeyan/NeuroForge) | Python | 3 | 2026-09-23 | A from-scratch deep learning framework and interactive AI... |
+| 8 | [**GRAVIHERD**](https://github.com/beijixingdeyan/GRAVIHERD) | C# | 3 | 2026-09-23 | 你不是玩家，你是一个引力场。牧养光子羊群穿越守卫防线，抵达充能站。 |
 
-<sub>最后同步：2026-09-22 21:03 CST · 总数 **40** · 由 `auto-update.yml` 自动生成</sub>
+<sub>最后同步：2026-09-23 21:18 CST · 总数 **40** · 由 `auto-update.yml` 自动生成</sub>
 <!-- AUTO_REPOS_END -->
 
 ---
