@@ -253,7 +253,7 @@ AI 混合检测引擎：**行为基线 + 异常评分 + LLM因果推理**，智�
 | 7 | [**NeuroForge**](https://github.com/beijixingdeyan/NeuroForge) | Python | 3 | 2026-09-23 | A from-scratch deep learning framework and interactive AI... |
 | 8 | [**GRAVIHERD**](https://github.com/beijixingdeyan/GRAVIHERD) | C# | 3 | 2026-09-23 | 你不是玩家，你是一个引力场。牧养光子羊群穿越守卫防线，抵达充能站。 |
 
-<sub>最后同步：2026-09-24 21:19 CST · 总数 **40** · 由 `auto-update.yml` 自动生成</sub>
+<sub>最后同步：2026-09-25 21:18 CST · 总数 **40** · 由 `auto-update.yml` 自动生成</sub>
 <!-- AUTO_REPOS_END -->
 
 ---
