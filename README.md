@@ -1,7 +1,7 @@
 <img width="100%" src="https://wsrv.nl/?url=https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a8a,100:06b6d4&height=220&section=header&text=Hi%20there%20%F0%9F%91%8B%20I'm%20Pengqi&fontSize=42&fontColor=ffffff&animation=fadeIn&desc=Computer%20Science%20%40%20HNUST%20%C2%B7%20Hunan%20University%20of%20Science%20and%20Technology&descAlignY=75&descSize=16" />
 
 <!-- AUTO_TYPING_START --><p align="center">
-  <a href="https://github.com/beijixingdeyan"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Computer%20Science%20%26%20Technology%20%40%20HNUST;AI%20%E2%80%A2%20Systems%20%E2%80%A2%20Security%20%E2%80%A2%20Full%20Stack;Building%20from%20First%20Principles%2C%20Not%20Wrapping%20APIs;40%2BRepositories%20%26%20Counting%20%F0%9F%9A%80" alt="Typing SVG" /></a>
+  <a href="https://github.com/beijixingdeyan"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Computer%20Science%20%26%20Technology%20%40%20HNUST;AI%20%E2%80%A2%20Systems%20%E2%80%A2%20Security%20%E2%80%A2%20Full%20Stack;Building%20from%20First%20Principles%2C%20Not%20Wrapping%20APIs;41%2BRepositories%20%26%20Counting%20%F0%9F%9A%80" alt="Typing SVG" /></a>
 </p><!-- AUTO_TYPING_END -->
 
 <p align="center">
@@ -27,7 +27,7 @@
 > **「从第一性原理重新实现」—— 不做薄薄的封装，而是把 Autograd、流引擎、微内核、行为检测 亲手写出来。**
 
 - 🎓 **湖南科技大学 / Hunan University of Science and Technology** — 计算机科学与技术
-<!-- AUTO_COUNT_START -->- 📍 湘潭 · 湖南 | **40** 个公开仓库 | 覆盖 **Python / TypeScript / Go / Rust / C++ / Java** 全栈<!-- AUTO_COUNT_END -->
+<!-- AUTO_COUNT_START -->- 📍 湘潭 · 湖南 | **41** 个公开仓库 | 覆盖 **Python / TypeScript / Go / Rust / C++ / Java** 全栈<!-- AUTO_COUNT_END -->
 - 🧠 热爱领域：**AI Native 应用 / 分布式系统 / 零信任安全 / 操作系统 / 计算物理**
 - 🛠️ 信条：**Zero Dependency · From Scratch · Production Ready** — `go.mod` 可以零依赖，AI 框架可以纯 NumPy，流引擎可以不用 Kafka
 - 🌱 最近在做：`河道主动巡护系统 (YOLOv8 + FastAPI)` · `AegisFlow 零信任平台` · `PromptForge 提示词工程`
@@ -39,7 +39,7 @@
 - 🎓 CS & Technology @ HNUST, Xiangtan Hunan
 - 🔥 Obsessed with building from first principles: autograd engines, stream engines, microkernels, behavioral detection — all from scratch.
 - 🧩 Philosophy: Zero-dependency, explainable, deployable anywhere (Docker / Helm / systemd / bare metal).
-<!-- AUTO_COUNT_EN_START -->- 🚀 40 public repos spanning AI, Systems, Security, FinTech, Games and Full-stack.<!-- AUTO_COUNT_EN_END -->
+<!-- AUTO_COUNT_EN_START -->- 🚀 41 public repos spanning AI, Systems, Security, FinTech, Games and Full-stack.<!-- AUTO_COUNT_EN_END -->
 
 </details>
 
@@ -190,7 +190,7 @@ AI 混合检测引擎：**行为基线 + 异常评分 + LLM因果推理**，智�
 | [**SpectraPhysicsEngine**](https://github.com/beijixingdeyan/SpectraPhysicsEngine) / [**AetherLife**](https://github.com/beijixingdeyan/AetherLife) / [**aethergrid**](https://github.com/beijixingdeyan/aethergrid) | 自研物理引擎 / 生命模拟 / 网格系统 | `C++` |
 
 <details>
-<summary>📦 查看完整 40 个仓库分类矩阵</summary>
+<summary>📦 查看完整 41 个仓库分类矩阵</summary>
 
 | 类别 | 仓库 |
 |---|---|
@@ -244,16 +244,16 @@ AI 混合检测引擎：**行为基线 + 异常评分 + LLM因果推理**，智�
 
 | # | 仓库 | 语言 | ⭐ | 更新 | 简介 |
 |---|---|---|---|---|---|
-| 1 | [**voidforge**](https://github.com/beijixingdeyan/voidforge) | TypeScript | 2 | 2026-09-23 | 一款面向 miHoYo 技术栈的程序化开放世界生成引擎 |
-| 2 | [**re-sonance**](https://github.com/beijixingdeyan/re-sonance) | HTML | 3 | 2026-09-23 | 让过去的你，成为此刻的同伴。 |
-| 3 | [**aethergrid**](https://github.com/beijixingdeyan/aethergrid) | C++ | 3 | 2026-09-23 | 一个不依赖第三方库的 C++20 混沌工程沙盒。它把分布式系统中最棘手的故障模式变成可交互、可观察、可复现的“故障... |
-| 4 | [**AetherLife**](https://github.com/beijixingdeyan/AetherLife) | C++ | 3 | 2026-09-23 | C++20 无锁 Actor 运行时 + SIMD 活体世界模拟引擎：每个生物的大脑是一段 96 字节基因组，由有... |
-| 5 | [**SpectraPhysicsEngine**](https://github.com/beijixingdeyan/SpectraPhysicsEngine) | C++ | 3 | 2026-09-23 | 实时音频驱动的粒子物理可视化引擎 |
-| 6 | [**chronomesh**](https://github.com/beijixingdeyan/chronomesh) | C++ | 3 | 2026-09-23 | ChronoMesh 是一个零第三方依赖的 C++20 项目：它把一个确定性探索游戏和一个可观测的高可用事件网格放... |
-| 7 | [**NeuroForge**](https://github.com/beijixingdeyan/NeuroForge) | Python | 3 | 2026-09-23 | A from-scratch deep learning framework and interactive AI... |
-| 8 | [**GRAVIHERD**](https://github.com/beijixingdeyan/GRAVIHERD) | C# | 3 | 2026-09-23 | 你不是玩家，你是一个引力场。牧养光子羊群穿越守卫防线，抵达充能站。 |
+| 1 | [**rea**](https://github.com/beijixingdeyan/rea) | - | 0 | 2026-10-16 | Reverse engineer anything with agents, from app behavior ... |
+| 2 | [**voidforge**](https://github.com/beijixingdeyan/voidforge) | TypeScript | 2 | 2026-09-23 | 一款面向 miHoYo 技术栈的程序化开放世界生成引擎 |
+| 3 | [**re-sonance**](https://github.com/beijixingdeyan/re-sonance) | HTML | 3 | 2026-09-23 | 让过去的你，成为此刻的同伴。 |
+| 4 | [**aethergrid**](https://github.com/beijixingdeyan/aethergrid) | C++ | 3 | 2026-09-23 | 一个不依赖第三方库的 C++20 混沌工程沙盒。它把分布式系统中最棘手的故障模式变成可交互、可观察、可复现的“故障... |
+| 5 | [**AetherLife**](https://github.com/beijixingdeyan/AetherLife) | C++ | 3 | 2026-09-23 | C++20 无锁 Actor 运行时 + SIMD 活体世界模拟引擎：每个生物的大脑是一段 96 字节基因组，由有... |
+| 6 | [**SpectraPhysicsEngine**](https://github.com/beijixingdeyan/SpectraPhysicsEngine) | C++ | 3 | 2026-09-23 | 实时音频驱动的粒子物理可视化引擎 |
+| 7 | [**chronomesh**](https://github.com/beijixingdeyan/chronomesh) | C++ | 3 | 2026-09-23 | ChronoMesh 是一个零第三方依赖的 C++20 项目：它把一个确定性探索游戏和一个可观测的高可用事件网格放... |
+| 8 | [**NeuroForge**](https://github.com/beijixingdeyan/NeuroForge) | Python | 3 | 2026-09-23 | A from-scratch deep learning framework and interactive AI... |
 
-<sub>最后同步：2026-10-15 21:07 CST · 总数 **40** · 由 `auto-update.yml` 自动生成</sub>
+<sub>最后同步：2026-10-16 20:43 CST · 总数 **41** · 由 `auto-update.yml` 自动生成</sub>
 <!-- AUTO_REPOS_END -->
 
 ---
