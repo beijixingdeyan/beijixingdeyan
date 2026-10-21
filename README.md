@@ -253,7 +253,7 @@ AI 混合检测引擎：**行为基线 + 异常评分 + LLM因果推理**，智�
 | 7 | [**chronomesh**](https://github.com/beijixingdeyan/chronomesh) | C++ | 3 | 2026-09-23 | ChronoMesh 是一个零第三方依赖的 C++20 项目：它把一个确定性探索游戏和一个可观测的高可用事件网格放... |
 | 8 | [**NeuroForge**](https://github.com/beijixingdeyan/NeuroForge) | Python | 3 | 2026-09-23 | A from-scratch deep learning framework and interactive AI... |
 
-<sub>最后同步：2026-10-20 21:24 CST · 总数 **41** · 由 `auto-update.yml` 自动生成</sub>
+<sub>最后同步：2026-10-21 21:26 CST · 总数 **41** · 由 `auto-update.yml` 自动生成</sub>
 <!-- AUTO_REPOS_END -->
 
 ---
