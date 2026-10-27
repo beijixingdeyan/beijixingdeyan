@@ -253,7 +253,7 @@ AI 混合检测引擎：**行为基线 + 异常评分 + LLM因果推理**，智�
 | 7 | [**SpectraPhysicsEngine**](https://github.com/beijixingdeyan/SpectraPhysicsEngine) | C++ | 3 | 2026-09-23 | 实时音频驱动的粒子物理可视化引擎 |
 | 8 | [**chronomesh**](https://github.com/beijixingdeyan/chronomesh) | C++ | 3 | 2026-09-23 | ChronoMesh 是一个零第三方依赖的 C++20 项目：它把一个确定性探索游戏和一个可观测的高可用事件网格放... |
 
-<sub>最后同步：2026-10-26 22:27 CST · 总数 **41** · 由 `auto-update.yml` 自动生成</sub>
+<sub>最后同步：2026-10-27 21:58 CST · 总数 **41** · 由 `auto-update.yml` 自动生成</sub>
 <!-- AUTO_REPOS_END -->
 
 ---
