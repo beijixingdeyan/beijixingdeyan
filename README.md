@@ -253,7 +253,7 @@ AI 混合检测引擎：**行为基线 + 异常评分 + LLM因果推理**，智�
 | 7 | [**AetherLife**](https://github.com/beijixingdeyan/AetherLife) | C++ | 3 | 2026-09-23 | C++20 无锁 Actor 运行时 + SIMD 活体世界模拟引擎：每个生物的大脑是一段 96 字节基因组，由有... |
 | 8 | [**SpectraPhysicsEngine**](https://github.com/beijixingdeyan/SpectraPhysicsEngine) | C++ | 3 | 2026-09-23 | 实时音频驱动的粒子物理可视化引擎 |
 
-<sub>最后同步：2026-11-03 23:02 CST · 总数 **42** · 由 `auto-update.yml` 自动生成</sub>
+<sub>最后同步：2026-11-04 23:25 CST · 总数 **42** · 由 `auto-update.yml` 自动生成</sub>
 <!-- AUTO_REPOS_END -->
 
 ---
